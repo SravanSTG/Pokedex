@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Search = (props) => {
   const handleChange = (e) => {
-    props.setPokemon(e.target.value);
+    props.setPokemon(e.target.value.toLowerCase());
   };
 
   return (
