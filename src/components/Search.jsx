@@ -16,7 +16,7 @@ const Search = (props) => {
         value={props.pokemon}
       />
       <button className="search-btn" onClick={props.searchPokemon}>
-        <Link to="/pokemon/">Search</Link>
+        <Link to={"/pokemon/" + props.pokemon}>Search</Link>
       </button>
       <button className="show-all" onClick={props.showAllClick}>
         Show all Pokemon

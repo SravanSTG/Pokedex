@@ -178,7 +178,7 @@ const App = () => {
           }
         />
         <Route
-          path="/pokemon/"
+          path="/pokemon/:pokemon/"
           element={
             pokemonExists ? (
               <Pokemon pokemon={pokemon} pokemonInfo={pokemonInfo} />
